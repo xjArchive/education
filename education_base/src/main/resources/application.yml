@@ -1,0 +1,17 @@
+server:
+  port: 9001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka
+spring:
+  application:
+  appname: communite-base
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://192.168.230.134:3306/communite_base?characterEncoding=utf-8
+      username: root
+      password: 123456
+jpa:
+  database: mysql
+  show-sql: true
