@@ -49,7 +49,7 @@ public class SwaggerConfiguration {
                 .apiInfo(apiInfo())
                 .select()
                 // swagger覆盖的范围
-                .apis(RequestHandlerSelectors.basePackage("com.education.open.controller"))
+                 .apis(RequestHandlerSelectors.basePackage("com.education.open.controller"))
                 .paths(PathSelectors.any())
                 .build()
                 .useDefaultResponseMessages(false)
